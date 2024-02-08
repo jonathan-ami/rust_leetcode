@@ -29,7 +29,7 @@ impl Solution {
                 Self::rec_helper(num_open + 1, num_closed, strings, string_copy, num);
             } else {
                 string.push_str("(");
-                Self::rec_helper(num_open + 1, num_closed, strings, string, num);
+                Self::rec_helper(num_open + 1, num_closed + , strings, string, num);
             }
         }
     }
