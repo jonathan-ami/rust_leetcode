@@ -1,8 +1,9 @@
-mod daily_temperatures;
-use daily_temperatures::Solution;
+mod car_fleet;
+use car_fleet::Solution;
 
 fn main() {
-    let values = vec![73, 74, 75, 71, 69, 72, 76, 73];
-    let result = Solution::daily_temperatures(values);
+    let position = vec![10, 8, 0, 5, 3];
+    let speed = vec![2, 4, 1, 1, 3];
+    let result = Solution::car_fleet(12, position, speed);
     print!("{:?}", result);
 }
