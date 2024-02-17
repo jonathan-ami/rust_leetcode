@@ -1,9 +1,7 @@
-mod car_fleet;
-use car_fleet::Solution;
-
+mod trapping_rain_water;
+use trapping_rain_water::Solution;
 fn main() {
-    let position = vec![10, 8, 0, 5, 3];
-    let speed = vec![2, 4, 1, 1, 3];
-    let result = Solution::car_fleet(12, position, speed);
+    let heights = vec![0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1];
+    let result = Solution::rain_water(heights);
     print!("{:?}", result);
 }
