@@ -1,7 +1,7 @@
-mod trapping_rain_water;
-use trapping_rain_water::Solution;
+mod largest_histogram;
+use largest_histogram::Solution;
 fn main() {
-    let heights = vec![0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1];
-    let result = Solution::rain_water(heights);
+    let heights = vec![2, 1, 5, 6, 2, 3];
+    let result = Solution::largest_area(heights);
     print!("{:?}", result);
 }
