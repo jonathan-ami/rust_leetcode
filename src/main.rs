@@ -1,7 +1,7 @@
-mod largest_histogram;
-use largest_histogram::Solution;
+mod eating_bananas;
+use eating_bananas::Solution;
 fn main() {
-    let heights = vec![2, 1, 5, 6, 2, 3];
-    let result = Solution::largest_area(heights);
+    let piles = vec![312884470];
+    let result = Solution::min_eating_speed(piles, 312884469);
     print!("{:?}", result);
 }
