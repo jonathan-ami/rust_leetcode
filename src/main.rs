@@ -1,7 +1,7 @@
-mod eating_bananas;
-use eating_bananas::Solution;
+mod search_rotated;
+use search_rotated::Solution;
 fn main() {
-    let piles = vec![312884470];
-    let result = Solution::min_eating_speed(piles, 312884469);
+    let piles = vec![4, 5, 6, 7, 0, 1, 2];
+    let result = Solution::search(piles, 0);
     print!("{:?}", result);
 }
