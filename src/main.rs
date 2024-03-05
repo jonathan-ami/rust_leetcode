@@ -1,7 +1,7 @@
-mod search_rotated;
-use search_rotated::Solution;
+mod buy_and_sell_stock;
+use buy_and_sell_stock::Solution;
 fn main() {
-    let piles = vec![4, 5, 6, 7, 0, 1, 2];
-    let result = Solution::search(piles, 0);
+    let nums1 = vec![7, 1, 5, 3, 6, 4];
+    let result = Solution::max_profit(nums1);
     print!("{:?}", result);
 }
