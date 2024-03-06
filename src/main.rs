@@ -1,7 +1,7 @@
-mod buy_and_sell_stock;
-use buy_and_sell_stock::Solution;
+mod longest_substring;
+use longest_substring::Solution;
 fn main() {
-    let nums1 = vec![7, 1, 5, 3, 6, 4];
-    let result = Solution::max_profit(nums1);
+    let s = "au".to_string();
+    let result = Solution::length_of_longest_substring(s);
     print!("{:?}", result);
 }
