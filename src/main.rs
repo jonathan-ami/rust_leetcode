@@ -1,7 +1,7 @@
-mod longest_substring;
-use longest_substring::Solution;
+mod longest_repeating_character;
+use longest_repeating_character::Solution;
 fn main() {
-    let s = "au".to_string();
-    let result = Solution::length_of_longest_substring(s);
+    let s = "AABABBBBB".to_string();
+    let result = Solution::character_replacement(s, 0);
     print!("{:?}", result);
 }
