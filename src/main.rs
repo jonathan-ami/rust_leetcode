@@ -1,7 +1,8 @@
-mod longest_repeating_character;
-use longest_repeating_character::Solution;
+mod minimum_window_substring;
+use minimum_window_substring::Solution;
 fn main() {
-    let s = "AABABBBBB".to_string();
-    let result = Solution::character_replacement(s, 0);
+    let s1 = "aa".to_string();
+    let s2 = "aa".to_string();
+    let result = Solution::min_window(s1, s2);
     print!("{:?}", result);
 }
