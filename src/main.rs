@@ -1,8 +1,7 @@
-mod minimum_window_substring;
-use minimum_window_substring::Solution;
+mod sliding_window_max;
+use sliding_window_max::Solution;
 fn main() {
-    let s1 = "aa".to_string();
-    let s2 = "aa".to_string();
-    let result = Solution::min_window(s1, s2);
+    let nums = vec![1, 3, -1, -3, 5, 3, 6, 7];
+    let result = Solution::max_sliding_window(nums, 3);
     print!("{:?}", result);
 }
