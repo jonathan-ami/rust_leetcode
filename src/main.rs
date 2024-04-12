@@ -1,5 +1,5 @@
-mod level_order;
-use level_order::Solution;
+mod kth_smallest_bst;
+use kth_smallest_bst::Solution;
 use std::cell::RefCell;
 use std::rc::Rc;
 #[derive(Debug, PartialEq, Eq)]
