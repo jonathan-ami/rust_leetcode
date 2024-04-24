@@ -1,7 +1,7 @@
-mod kth_smallest_bst;
-use kth_smallest_bst::Solution;
+mod word_search2;
 use std::cell::RefCell;
 use std::rc::Rc;
+use words_dictionary;
 #[derive(Debug, PartialEq, Eq)]
 pub struct TreeNode {
     pub val: i32,
