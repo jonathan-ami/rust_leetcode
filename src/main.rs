@@ -1,2 +1,2 @@
-mod subsets_two;
+mod n_queens;
 fn main() {}
