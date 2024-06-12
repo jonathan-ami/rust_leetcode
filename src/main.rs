@@ -1,2 +1,2 @@
-mod min_cost_stairs;
+mod house_robber;
 fn main() {}
