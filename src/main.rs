@@ -1,2 +1,2 @@
-mod house_robber;
+mod longest_palindromic;
 fn main() {}
