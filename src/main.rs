@@ -1,2 +1,2 @@
-mod longest_palindromic;
+mod palindromic_substrings;
 fn main() {}
