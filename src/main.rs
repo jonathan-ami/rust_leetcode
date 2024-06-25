@@ -1,2 +1,2 @@
-mod palindromic_substrings;
+mod decode_ways;
 fn main() {}
