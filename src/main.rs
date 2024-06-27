@@ -1,2 +1,2 @@
-mod decode_ways;
+mod coin_change;
 fn main() {}
