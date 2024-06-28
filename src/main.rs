@@ -1,2 +1,2 @@
-mod coin_change;
+mod max_prod_subarray;
 fn main() {}
