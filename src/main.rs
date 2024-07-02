@@ -1,2 +1,2 @@
-mod max_prod_subarray;
+mod word_break;
 fn main() {}
