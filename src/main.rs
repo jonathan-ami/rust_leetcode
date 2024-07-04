@@ -1,2 +1,2 @@
-mod longest_inc_sub;
+mod partition_equal_subset;
 fn main() {}
