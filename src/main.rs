@@ -1,2 +1,2 @@
-mod partition_equal_subset;
+mod unique_paths;
 fn main() {}

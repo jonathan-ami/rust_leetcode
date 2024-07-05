@@ -8,6 +8,7 @@ impl Solution {
         fn height(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
             if let Some(node) = root {
                 let node = node.borrow();
+                node.
                 let lh = height(node.left.clone());
                 if lh == -1 {
                     return -1;
