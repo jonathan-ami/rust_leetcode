@@ -1,2 +1,2 @@
-mod longest_common_subseq;
+mod best_time_stock_cooldown;
 fn main() {}
