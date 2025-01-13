@@ -1,2 +1,2 @@
-mod coin_change2;
+mod shortestnetworkpath;
 fn main() {}
